@@ -1,0 +1,21 @@
+const accordion = require('./accordion');
+const calcInfoCollect = require('./calcInfoCollect');
+const calculator = require('./calculator');
+const calculatorControl = require('./calculatorControl');
+const formValidation = require('./form-validation');
+const messageControl = require('./messageControl');
+const messageInfoCollect = require('./messageInfoCollect');
+const more = require('./more');
+const popupCall = require('./popup-call');
+const sendForm = require('./send-form');
+
+accordion();
+calcInfoCollect();
+calculator();
+calculatorControl();
+formValidation();
+messageControl();
+messageInfoCollect();
+more();
+popupCall();
+sendForm();
